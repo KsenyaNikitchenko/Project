@@ -176,9 +176,8 @@
       .Team-block{
         display: flex;
         text-align: left;
-        padding-left: 0px;
-        justify-content: space-around;
-      }
+        padding-left: 340px;     
+        }
       .Team-block b{
         font-size: 24px;
       }
