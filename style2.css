@@ -157,7 +157,6 @@
     @media screen and (min-width:1224px){
       .Tariff{
         flex-direction: row;
-        padding-left:330px;
       }
       .Tariff-wrapper:hover{
         width: 400px;
