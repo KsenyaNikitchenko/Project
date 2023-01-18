@@ -59,18 +59,15 @@ $(document).ready(function () {
     });
   
   
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-  
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("accordion-active");
-        var panel = this.lastElementChild;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    }
-  });
+$(document).ready(function() {
+    console.log( "ready!" );
+   $(".accordion h6:first").addClass("active");
+   $(".accordion p:not(:first)").hide();
+   $(".accordion h6").click(function () {
+     $(this).next("p").slideToggle("slow")
+       .siblings("p:visible").slideUp("slow");
+     $(this).toggleClass("active");
+     $(this).siblings("h6").removeClass("active");
+   });
+
+});
