@@ -157,6 +157,7 @@
     @media screen and (min-width:1224px){
       .Tariff{
         flex-direction: row;
+        padding-left:330px;
       }
       .Tariff-wrapper:hover{
         width: 400px;
@@ -172,12 +173,12 @@
       .Team{
         flex-direction: row;
         margin-bottom: 210px;
+        justify-content: space-between;
+        padding-left:340px;
       }
       .Team-block{
         display: flex;
         text-align: left;
-        display: block;
-        justify-content: space-between;
         }
       .Team-block b{
         font-size: 24px;
