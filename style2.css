@@ -140,8 +140,9 @@
       margin-bottom: 100px;
     }
     .Team-block{
-      display: block;
+      display: flex;
       text-align: center;
+      flex-direction: column;
     }
     .Team p{
       text-align: left;
