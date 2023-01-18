@@ -1,7 +1,11 @@
-#expertise, #contactus, footer{
+.competency{
+    margin-top: 150px;
+}
+.expertise, #contactus, footer{
     background-color: black;
     color: white;
     text-align: left;
+    border: 0px;
 }
 .competency-item{
     margin: 20px;
@@ -20,6 +24,10 @@
     width: 100%;
     border-radius: 10px;
     margin: 5px auto 5px auto;
+}
+#contactus{
+  width: 100%;
+  padding-top: 20px;
 }
 #contact{
     color: gainsboro;
@@ -63,205 +71,10 @@ footer .card{
     align-content: center;
     border: 2px solid orangered;
 }
+footer .card-body{
+    padding: 1.25rem;
+}
 footer .card img{
     width: 24px;
     height: 24px;
 }
-body{
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.menuinfo{
-  padding-top: 80px;
-  display: flex;
-  flex-direction: row;
-}
-.text{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding-right: 110px;
-}
-.text button{
-  text-align: center;
-  border: solid 1px #f04f32;
-  border-radius: 5px;
-  height: 50px;
-  width: 210px;
-  color: white;
-  padding-top: 20px;
-  transition: 0.1s linear;
-}
-.text button:hover{
-  background-color: #f04f32;
-}
-.blocks{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.blocks-item{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  border-left: solid 2px #f04f32;
-}
-h3{
-  display: flex;
-  flex-direction: row;
-}
-.Tariff{
-  display: flex;
-  flex-direction: column;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  justify-content: space-between;
-}
-.Tariff-wrapper{
-  border: solid 1px #e7e7e7;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 5px;
-  width: 360px;
-  transition: all 0.1s linear;
-  margin-bottom: 35px;
-}
-.Tariff-wrapper:hover{
-  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
-
-}
-.Tariff-header{
-  padding-top: 35px;
-  color: #f04f32;
-  padding-bottom: 35px;
-  border-bottom: solid 3px #e7e7e7;
-  text-align: left;
-  font-size: 17px;
-  font-weight: bold;
-}
-.Tariff-body{
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-align: left;
-}
-.Tariff-body-item{
-  padding-top: 25px;
-}
-button{
-  text-align: center;
-  border: solid 1px #f04f32;
-  border-radius: 5px;
-  height: 50px;
-  width: 100%;
-  color: #f04f32;
-  padding-top: 20px;
-  transition: 0.1s linear;
-  padding-bottom: 50px;
-}
-button:hover{
-  background-color: #f04f32;
-  color: white;
-}
-.active {
-    color: #f04f32;
-  }
-   .accordion {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 70px;
-  }
-  .accordion h6 {
-    background: white;
-    padding: 7px 15px;
-    margin: 0;
-    cursor: pointer;
-  }
-
-  .accordion h6:hover {
-    background-color: #e3e2e2;
-  }
-
-  .accordion h6.active {
-    background-position: right 5px;
-    border-top: solid 3px #f04f32;
-    border-right: solid 3px #f04f32;
-    border-left: solid 3px #f04f32;
-  }
-
-  .accordion p {
-    background: white;
-    padding-left: 15px;
-    border-right: solid 3px #f04f32;
-    border-left: solid 3px #f04f32;
-    border-bottom: solid 3px #f04f32;
-  }
-  h1{
-    margin-bottom: 70px;
-    justify-content: center;
-  }
-  h2{
-    text-align: center;
-    margin-bottom: 25px;
-  }
-  .Team{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-  }
-  .Team-block{
-    display: block;
-    text-align: center;
-  }
-  .Team p{
-    text-align: left;
-    padding-left: 110px;
-    width: 210px;
-    font-size: 10px;
-  }
-  .Team img{
-    width: 80px;
-    height: 80px;
-  }
-  @media screen and (min-width:1224px){
-    body{
-      padding-left: 170px;
-      padding-right: 170px;
-    }
-    .Tariff{
-      flex-direction: row;
-    }
-    .Tariff-wrapper:hover{
-      width: 400px;
-    }
-    h1{
-      width: 100%;
-      text-align: left;
-    }
-    h2{
-      margin-left: 25px;
-      margin-bottom: 90px;
-    }
-    .Team{
-      flex-direction: row;
-      margin-bottom: 210px;
-    }
-    .Team-block{
-      text-align: left;
-      padding-left: 0px;
-      padding-right: 195px;
-    }
-    .Team-block b{
-      font-size: 24px;
-    }
-    .Team p{
-      padding-left: 0px;
-      font-size: 12px;
-    }
-    .Tariff{
-      flex-direction: row;
-      }
-  }
